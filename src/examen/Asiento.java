@@ -64,4 +64,10 @@ public class Asiento {
 	public int getNumero() {
 		return this.numero;
 	}
+	@Override
+	public String toString() {
+		return "Asiento [PRECIO_PRIMERA=" + PRECIO_PRIMERA + ", PRECIO_BUSINESS=" + PRECIO_BUSINESS
+				+ ", PRECIO_TURISTA=" + PRECIO_TURISTA + ", pasajero=" + pasajero + ", clase=" + clase + ", precio="
+				+ precio + ", fila=" + fila + ", numero=" + numero + "]";
+	}
 }

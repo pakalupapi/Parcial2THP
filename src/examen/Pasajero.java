@@ -17,5 +17,8 @@ public class Pasajero {
 	private void setTelefono(int telefono) {
 		this.telefono = telefono;
 	}
-	
+	@Override
+	public String toString() {
+		return "Pasajero [dni=" + dni + ", telefono=" + telefono + "]";
+	}
 }

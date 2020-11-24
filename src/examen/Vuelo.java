@@ -24,6 +24,10 @@ public class Vuelo {
 	private double getTotalRecaudado() {
 		return this.totalRecaudado;
 	}
+	@Override
+	public String toString() {
+		return "Vuelo [numero=" + numero + ", asientosTotales=" + asientosTotales + ", totalRecaudado=" + totalRecaudado + "]";
+	}
 	private Asiento buscarAsientoReservado(String fila, int numero) {
 		int i = 0;
 		Asiento asientoEncontrado = null;
